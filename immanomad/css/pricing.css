@@ -1,0 +1,97 @@
+.pricing-container {
+    margin: 0 auto;
+    width: 90rem;
+    margin-top: 10rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-header {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.pricing-box {
+    margin-top: 2rem;
+    display: flex;
+    gap: 3rem;
+
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.pricing300 {
+    gap: 2rem;
+    border: 5px solid #C2BBFF;
+    box-shadow: -12px 10px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+    border-radius: 30px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.main-price300 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price {
+    font-size: 4.5rem;
+}
+
+.per-month {
+    margin-top: -1.5rem;
+    font-size: 1.6rem;
+}
+
+.inclusions {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.inclusions li {
+    display: flex;
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.check-icon {
+    width: 5.5rem;
+}
+
+.avail {
+    width: 80%;
+    background-color: #C2BBFF;
+    color: white;
+    font-size: 1.8rem;
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+.pricing500 {
+    gap: 2rem;
+    border: 10px solid #7A87B6;
+    box-shadow: -12px 10px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 48rem;
+    border-radius: 30px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.avail2 {
+    background-color: #7A87B6;
+}
